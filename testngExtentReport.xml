@@ -1,0 +1,96 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+
+
+  <test name="Test">
+   <classes>
+     <class name="com.minimizedScenariosExtentReport.Verify_Duplicate" /> 
+    </classes>
+    </test>
+    
+    
+    <test name="Uniqueelectivesubject" >
+    <classes>
+         <class name="com.minimizedScenariosExtentReport.Uniqueelectivesubject" /> 
+    
+    </classes>
+    </test>
+    
+    
+    
+    <test name="Alloutside_StateANDWithoutreservation" >
+    <classes>
+         <class name="com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation"/>
+    
+    </classes>
+    </test>
+  
+  
+  
+     <test name="CAFTest" >
+    <classes>
+         <class name="com.minimizedScenariosExtentReport.CAFTest" />
+    
+    </classes>
+    </test>
+    
+    
+    
+     <test name="Check_Fieldvalidation" >
+    <classes>
+         <class name="com.minimizedScenariosExtentReport.Check_Fieldvalidation"/>
+    </classes>
+    </test>
+    
+    
+    
+    <test name="Check_MarkComparision" >
+    <classes>
+          <class name="com.minimizedScenariosExtentReport.Check_MarkComparision"/>
+    </classes>
+    </test>
+  
+  
+  
+  <test name="ExamType" >
+    <classes>
+          <class name="com.minimizedScenariosExtentReport.ExamType"/>
+    </classes>
+    </test>
+    
+    
+    
+    <test name="Mark_Grade" >
+    <classes>
+          <class name="com.minimizedScenariosExtentReport.Mark_Grade"/>
+    </classes>
+    </test>
+    
+    
+    
+    <test name="OSACandidate_Apply" >
+    <classes>
+          <class name="com.minimizedScenariosExtentReport.OSACandidate_Apply"/>
+    </classes>
+    </test>
+    
+    
+    
+    <test name="VerifyFeespayment" >
+    <classes>
+          <class name="com.minimizedScenariosExtentReport.VerifyFeespayment"/>
+    </classes>
+    </test>
+    
+    
+    
+     <test name="AutoValidation" >
+    <classes>
+          <class name="com.minimizedScenariosExtentReport.AutoValidation"/>
+    </classes>
+   
+   
+    
+    
+  </test> 
+</suite> 

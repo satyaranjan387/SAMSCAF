@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="VerifyChar(failed)">
+    <classes>
+      <class name="FieldText.VerifyChar">
+        <methods>
+          <include name="AlphabetsNotAllowForAadharNumber"/>
+          <include name="extentReportSetUp"/>
+          <include name="finishExtentReport"/>
+          <include name="tearDown"/>
+          <include name="AlphabetsNotAllowForMobileNo"/>
+        </methods>
+      </class> <!-- FieldText.VerifyChar -->
+    </classes>
+  </test> <!-- VerifyChar(failed) -->
+  <test thread-count="5" name="VerifyLength(failed)">
+    <classes>
+      <class name="FieldText.VerifyLength">
+        <methods>
+          <include name="MaxLengthShouldNotLess5ForAccountNumber"/>
+          <include name="MaxLengthShouldNotLess10ForMobileNo"/>
+          <include name="MaxLengthShouldNotLess12ForAadharNumber"/>
+          <include name="extentReportSetUp"/>
+          <include name="finishExtentReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FieldText.VerifyLength -->
+    </classes>
+  </test> <!-- VerifyLength(failed) -->
+  <test thread-count="5" name="VerifyMandatroy(failed)">
+    <classes>
+      <class name="FieldText.VerifyMandatroy">
+        <methods>
+          <include name="CheckMandatoryForScience"/>
+          <include name="CheckMandatoryForYearOfJoining"/>
+          <include name="CheckMandatoryForEnglish"/>
+          <include name="CheckMandatoryForMath"/>
+          <include name="CheckMandatoryForNameOfSchool"/>
+          <include name="CheckMandatoryForAccountNumber"/>
+          <include name="CheckMandatoryForIFSC"/>
+          <include name="CheckMandatoryForMotherOccupation"/>
+          <include name="CheckMandatoryForGrade"/>
+          <include name="extentReportSetUp"/>
+          <include name="CheckMandatoryForBankName"/>
+          <include name="CheckMandatoryForFatherOccupation"/>
+          <include name="CheckMandatoryForSocialScience"/>
+          <include name="CheckMandatoryForDistrictInstitute"/>
+          <include name="CheckMandatoryForAnnualIncome"/>
+          <include name="CheckMandatoryForLocationOfSchool"/>
+          <include name="finishExtentReport"/>
+          <include name="CheckNonMandatoryForMICR"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FieldText.VerifyMandatroy -->
+    </classes>
+  </test> <!-- VerifyMandatroy(failed) -->
+  <test thread-count="5" name="VerifySelectedDataDropdown(failed)">
+    <classes>
+      <class name="FieldText.VerifySelectedDataDropdown">
+        <methods>
+          <include name="whitespaceallowMiddleplaceForSchoolName"/>
+          <include name="SelectDataShouldBeDisplayedForYear"/>
+          <include name="whitespaceallowNotAllowInitialplaceForSchoolLocation"/>
+          <include name="whitespaceNotallowLastplaceForSchoolName"/>
+          <include name="whitespaceNotallowInitialplaceForSchoolName"/>
+          <include name="extentReportSetUp"/>
+          <include name="finishExtentReport"/>
+          <include name="tearDown"/>
+          <include name="whitespaceallowNotAllowLastplaceForSchoolLocation"/>
+        </methods>
+      </class> <!-- FieldText.VerifySelectedDataDropdown -->
+    </classes>
+  </test> <!-- VerifySelectedDataDropdown(failed) -->
+  <test thread-count="5" name="VerifySpecialChar(failed)">
+    <classes>
+      <class name="FieldText.VerifySpecialChar">
+        <methods>
+          <include name="SpecialCharNotAllowInitialPlaceForAadharNumber"/>
+          <include name="extentReportSetUp"/>
+          <include name="finishExtentReport"/>
+          <include name="tearDown"/>
+          <include name="SpecialCharNotAllowLastPlaceForAadharNumber"/>
+          <include name="SpecialCharNotAllowMiddlePlaceForAadharNumber"/>
+        </methods>
+      </class> <!-- FieldText.VerifySpecialChar -->
+    </classes>
+  </test> <!-- VerifySpecialChar(failed) -->
+  <test thread-count="5" name="VerifySqlChar(failed)">
+    <classes>
+      <class name="FieldText.VerifySqlChar">
+        <methods>
+          <include name="SqlCharNotAllowInitialPlaceForAadharNumber"/>
+          <include name="extentReportSetUp"/>
+          <include name="finishExtentReport"/>
+          <include name="SqlCharNotAllowLastPlaceForAadharNumber"/>
+          <include name="tearDown"/>
+          <include name="SqlCharNotAllowMiddlePlaceForAadharNumber"/>
+        </methods>
+      </class> <!-- FieldText.VerifySqlChar -->
+    </classes>
+  </test> <!-- VerifySqlChar(failed) -->
+  <test thread-count="5" name="VerifyWhiteSpace(failed)">
+    <classes>
+      <class name="FieldText.VerifyWhiteSpace">
+        <methods>
+          <include name="WhiteSpaceNotAllowInitialPlaceForMobileNo"/>
+          <include name="WhiteSpaceNotAllowInitialPlaceForAadharNumber"/>
+          <include name="WhiteSpaceNotAllowLastPlaceForAadharNumber"/>
+          <include name="WhiteSpaceNotAllowMiddlePlaceForAadharNumber"/>
+          <include name="extentReportSetUp"/>
+          <include name="finishExtentReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FieldText.VerifyWhiteSpace -->
+    </classes>
+  </test> <!-- VerifyWhiteSpace(failed) -->
+</suite> <!-- Failed suite [Suite] -->

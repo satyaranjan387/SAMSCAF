@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="247754" started-at="2020-08-08T12:35:32 IST" finished-at="2020-08-08T12:39:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="247754" started-at="2020-08-08T12:35:32 IST" finished-at="2020-08-08T12:39:40 IST">
+      <class name="FieldText.Rough">
+        <test-method status="PASS" signature="extentReportSetUp()[pri:0, instance:FieldText.Rough@3f6b0be5]" name="extentReportSetUp" is-config="true" duration-ms="212" started-at="2020-08-08T12:35:32 IST" finished-at="2020-08-08T12:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportSetUp -->
+        <test-method status="PASS" signature="whitespacenotallowinitialplaceForBankName()[pri:18, instance:FieldText.Rough@3f6b0be5]" name="whitespacenotallowinitialplaceForBankName" duration-ms="104596" started-at="2020-08-08T12:35:32 IST" finished-at="2020-08-08T12:37:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whitespacenotallowinitialplaceForBankName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FieldText.Rough@3f6b0be5]" name="tearDown" is-config="true" duration-ms="15" started-at="2020-08-08T12:37:16 IST" finished-at="2020-08-08T12:37:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whitespacenotallowinitialplaceForBankName status=SUCCESS method=Rough.whitespacenotallowinitialplaceForBankName()[pri:18, instance:FieldText.Rough@3f6b0be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="whitespacenotallowLastplaceForBankName()[pri:19, instance:FieldText.Rough@3f6b0be5]" name="whitespacenotallowLastplaceForBankName" duration-ms="71110" started-at="2020-08-08T12:37:17 IST" finished-at="2020-08-08T12:38:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whitespacenotallowLastplaceForBankName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FieldText.Rough@3f6b0be5]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-08T12:38:28 IST" finished-at="2020-08-08T12:38:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whitespacenotallowLastplaceForBankName status=SUCCESS method=Rough.whitespacenotallowLastplaceForBankName()[pri:19, instance:FieldText.Rough@3f6b0be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="whitespaceallowMiddleplaceForBankName()[pri:20, instance:FieldText.Rough@3f6b0be5]" name="whitespaceallowMiddleplaceForBankName" duration-ms="71948" started-at="2020-08-08T12:38:28 IST" finished-at="2020-08-08T12:39:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whitespaceallowMiddleplaceForBankName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:FieldText.Rough@3f6b0be5]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-08T12:39:40 IST" finished-at="2020-08-08T12:39:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whitespaceallowMiddleplaceForBankName status=SUCCESS method=Rough.whitespaceallowMiddleplaceForBankName()[pri:20, instance:FieldText.Rough@3f6b0be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:FieldText.Rough@3f6b0be5]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-08T12:39:40 IST" finished-at="2020-08-08T12:39:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at FieldText.ExtentReportBase.tearDown(ExtentReportBase.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.afterRun(TestRunner.java:850)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="finishExtentReport()[pri:0, instance:FieldText.Rough@3f6b0be5]" name="finishExtentReport" is-config="true" duration-ms="-1596870580253" started-at="2020-08-08T12:39:40 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishExtentReport -->
+      </class> <!-- FieldText.Rough -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

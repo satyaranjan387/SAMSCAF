@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="1">
+
+  <test name="VerifyChar">
+    <classes>
+      <class name="FieldText.VerifyChar"/>
+    </classes>
+  </test>
+
+<test name="VerifyLength">
+    <classes>
+      <class name="FieldText.VerifyLength"/>
+    </classes>
+  </test>
+  
+    <test name="VerifyMandatroy">
+    <classes>
+      <class name="FieldText.VerifyMandatroy"/>
+    </classes>
+  </test>
+  
+
+
+<test name="VerifySelectedDataDropdown">
+    <classes>
+      <class name="FieldText.VerifySelectedDataDropdown"/>
+    </classes>
+  </test>
+  
+    <test name="VerifySpecialChar">
+    <classes>
+      <class name="FieldText.VerifySpecialChar"/>
+    </classes>
+  </test>
+  
+ <test name="VerifySqlChar">
+    <classes>
+      <class name="FieldText.VerifySqlChar"/>
+    </classes>
+  </test>
+  
+  <test name="VerifyWhiteSpace">
+    <classes>
+      <class name="FieldText.VerifyWhiteSpace"/>
+    </classes>
+  </test>
+    
+    </suite> 

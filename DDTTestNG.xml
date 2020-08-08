@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+
+
+  <test name="Test">
+   <classes>
+     <class name="com.testscenariosDDT.BSEBoardOnly" /> 
+    </classes>
+    </test>
+    
+    
+    <test name="Uniqueelectivesubject" >
+    <classes>
+         <class name="com.testscenariosDDT.CBSEBoardOnly" /> 
+    
+    </classes>
+    </test>
+ 
+  </test> 
+</suite> 

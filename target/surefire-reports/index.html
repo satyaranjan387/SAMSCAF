@@ -1,0 +1,2452 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 19 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\satyaranjan.m\eclipse-workspace\JuniorForm\testngExtentReport.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">11 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">62 methods, 19 failed,  1 skipped,  42 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation" hash-for-method="Alloutside_State">Alloutside_State</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="CAFApply_10thpasscompartmental">CAFApply_10thpasscompartmental</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="CAF_Accept_Fivepreference">CAF_Accept_Fivepreference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="CAF_NotAccept_Lessthan5preference">CAF_NotAccept_Lessthan5preference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="CheckStreamwise_Previousyear_Cuttoffmark">CheckStreamwise_Previousyear_Cuttoffmark</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Age_Equalto_13years_Apply">Check_Age_Equalto_13years_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Age_Lessthan_13years_Apply">Check_Age_Lessthan_13years_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Age_Morethan_13years_Apply">Check_Age_Morethan_13years_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Displaying_ResisteredEmailId">Check_Displaying_ResisteredEmailId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Enable_Compartmental_Selectannual">Check_Enable_Compartmental_Selectannual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Enable_Compartmental_Selectsupplementary">Check_Enable_Compartmental_Selectsupplementary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_ResisteredMobileNo_Readonlymode">Check_ResisteredMobileNo_Readonlymode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_YOJ_Less_YOL">Check_YOJ_Less_YOL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_YOL_Disabled">Check_YOL_Disabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="MALECandidate_CAF_Apply">MALECandidate_CAF_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="Minimum_10thpercentage_Apply_CAF">Minimum_10thpercentage_Apply_CAF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="Transgender_Candidate_CAF_Apply">Transgender_Candidate_CAF_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="VerifyYOL_Same_10thYOP">VerifyYOL_Same_10thYOP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.CAFTest" hash-for-method="femaleCandidate">femaleCandidate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation" hash-for-method="Withoutreservation">Withoutreservation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Accept_DuplicateAadharnumber_Differentuser">Accept_DuplicateAadharnumber_Differentuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Accept_DuplicateAddress_Differentuser">Accept_DuplicateAddress_Differentuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Accept_Duplicate_Guardianmobilenumber">Accept_Duplicate_Guardianmobilenumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Accept_Duplicate_Telephonumber">Accept_Duplicate_Telephonumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Uniqueelectivesubject" hash-for-method="Accept_Uniqueelectivesubject">Accept_Uniqueelectivesubject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Uniqueelectivesubject" hash-for-method="Accept_Uniqueforthelectivesubject">Accept_Uniqueforthelectivesubject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Accept_samemobileno_telephonenumber">Accept_samemobileno_telephonenumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="CheckDuplicacy_College_Stream">CheckDuplicacy_College_Stream</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_Fieldvalidation" hash-for-method="Check_Disabled_Supplementary_Currentyear">Check_Disabled_Supplementary_Currentyear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.ExamType" hash-for-method="ChildrenOfMatrys_Apply">ChildrenOfMatrys_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_MarkComparision" hash-for-method="Compare_PassMarkCompartmental_FailMarkPrevious">Compare_PassMarkCompartmental_FailMarkPrevious</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_MarkComparision" hash-for-method="Compare_TotalMarkSecured_MaxMark">Compare_TotalMarkSecured_MaxMark</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_MarkComparision" hash-for-method="Compare_TotalMarkSecured_Sumofindividualmarks">Compare_TotalMarkSecured_Sumofindividualmarks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Duplicate_Compartmental_Pass_Subject">Duplicate_Compartmental_Pass_Subject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Duplicate_Firstandforthelectivesubject_notapply">Duplicate_Firstandforthelectivesubject_notapply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Duplicate_Firstandsecondelectivesubject_notapply">Duplicate_Firstandsecondelectivesubject_notapply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Duplicate_Firstandthirdelectivesubject_notapply">Duplicate_Firstandthirdelectivesubject_notapply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="ExServiceman_Apply">ExServiceman_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.ExamType" hash-for-method="ExamType_Annual">ExamType_Annual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.ExamType" hash-for-method="Examtype_Supplementary">Examtype_Supplementary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Mark_Grade" hash-for-method="Mark_Grade_BPEKerela">Mark_Grade_BPEKerela</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Mark_Grade" hash-for-method="Mark_Grade_BSEAndhrapradesh">Mark_Grade_BSEAndhrapradesh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Mark_Grade" hash-for-method="Mark_Grade_BSEboard">Mark_Grade_BSEboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Mark_Grade" hash-for-method="Mark_Grade_CBSEBoard">Mark_Grade_CBSEBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Check_MarkComparision" hash-for-method="Minimum_PassPercentages_IndividualSubject">Minimum_PassPercentages_IndividualSubject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.OSACandidate_Apply" hash-for-method="OSACandidate_OdishaBoard_Apply">OSACandidate_OdishaBoard_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.OSACandidate_Apply" hash-for-method="OSACandidate_OtherBoard_Apply">OSACandidate_OtherBoard_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="SDP_Apply">SDP_Apply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.AutoValidation" hash-for-method="Verify10throllno_autovalidation_nonodishaboard">Verify10throllno_autovalidation_nonodishaboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifyGeneral_Feespayment">VerifyGeneral_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifyOBC_Feespayment">VerifyOBC_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifyORPHAN_Feespayment">VerifyORPHAN_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifyPWD_Feespayment">VerifyPWD_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifySC_Feespayment">VerifySC_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifyST_Feespayment">VerifyST_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.AutoValidation" hash-for-method="VerifyTenthrollno_autovalidation_before2013">VerifyTenthrollno_autovalidation_before2013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.AutoValidation" hash-for-method="VerifyTenththrollno_autovalidation">VerifyTenththrollno_autovalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="VerifyTransgender_Feespayment">VerifyTransgender_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Uniqueelectivesubject" hash-for-method="Verify_Accepting_Duplicate_10thdata">Verify_Accepting_Duplicate_10thdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="Verify_Duplicate_Fourthelectivesubject">Verify_Duplicate_Fourthelectivesubject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.VerifyFeespayment" hash-for-method="Verify_SEBC_Feespayment">Verify_SEBC_Feespayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.minimizedScenariosExtentReport.Verify_Duplicate" hash-for-method="sameNumGuardianMobile">sameNumGuardianMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Alloutside_State">
+                  </a> <!-- Alloutside_State -->
+                  <span class="method-name">Alloutside_State</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#form1 &gt; div:nth-child(4) &gt; table &gt; tbody &gt; tr:nth-child(5) &gt; td &gt; input:nth-child(1)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation.Alloutside_State(Alloutside_StateANDWithoutreservation.java:165)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.CAFTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CAFApply_10thpasscompartmental">
+                  </a> <!-- CAFApply_10thpasscompartmental -->
+                  <span class="method-name">CAFApply_10thpasscompartmental</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#rbtCompartmentalY&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=id, value=rbtCompartmentalY}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.CAFApply_10thpasscompartmental(CAFTest.java:472)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CAF_Accept_Fivepreference">
+                  </a> <!-- CAF_Accept_Fivepreference -->
+                  <span class="method-name">CAF_Accept_Fivepreference</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlCollegeDistrict&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=id, value=ddlCollegeDistrict}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.CAF_Accept_Fivepreference(CAFTest.java:846)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CAF_NotAccept_Lessthan5preference">
+                  </a> <!-- CAF_NotAccept_Lessthan5preference -->
+                  <span class="method-name">CAF_NotAccept_Lessthan5preference</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlFOcu&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=id, value=ddlFOcu}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.CAF_NotAccept_Lessthan5preference(CAFTest.java:512)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MALECandidate_CAF_Apply">
+                  </a> <!-- MALECandidate_CAF_Apply -->
+                  <span class="method-name">MALECandidate_CAF_Apply</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#leftmenu_divDiploma &gt; ul &gt; li.FormApply.open &gt; ul &gt; li:nth-child(1) &gt; a&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=css selector, value=#leftmenu_divDiploma &gt; ul &gt; li.FormApply.open &gt; ul &gt; li:nth-child(1) &gt; a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.MALECandidate_CAF_Apply(CAFTest.java:129)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Minimum_10thpercentage_Apply_CAF">
+                  </a> <!-- Minimum_10thpercentage_Apply_CAF -->
+                  <span class="method-name">Minimum_10thpercentage_Apply_CAF</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtSocSci&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=id, value=txtSocSci}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.Minimum_10thpercentage_Apply_CAF(CAFTest.java:407)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Transgender_Candidate_CAF_Apply">
+                  </a> <!-- Transgender_Candidate_CAF_Apply -->
+                  <span class="method-name">Transgender_Candidate_CAF_Apply</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlGender&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=id, value=ddlGender}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.Transgender_Candidate_CAF_Apply(CAFTest.java:233)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="femaleCandidate">
+                  </a> <!-- femaleCandidate -->
+                  <span class="method-name">femaleCandidate</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlGender&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b04aaf6286d98e7a50072a77dfa2b7f
+*** Element info: {Using=id, value=ddlGender}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.CAFTest.femaleCandidate(CAFTest.java:201)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Check_Fieldvalidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckStreamwise_Previousyear_Cuttoffmark">
+                  </a> <!-- CheckStreamwise_Previousyear_Cuttoffmark -->
+                  <span class="method-name">CheckStreamwise_Previousyear_Cuttoffmark</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlCollegeDistrict&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=ddlCollegeDistrict}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.CheckStreamwise_Previousyear_Cuttoffmark(Check_Fieldvalidation.java:808)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Age_Equalto_13years_Apply">
+                  </a> <!-- Check_Age_Equalto_13years_Apply -->
+                  <span class="method-name">Check_Age_Equalto_13years_Apply</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#form1 &gt; div:nth-child(4) &gt; table &gt; tbody &gt; tr:nth-child(5) &gt; td &gt; input:nth-child(1)&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=css selector, value=#form1 &gt; div:nth-child(4) &gt; table &gt; tbody &gt; tr:nth-child(5) &gt; td &gt; input:nth-child(1)}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_Age_Equalto_13years_Apply(Check_Fieldvalidation.java:221)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Age_Lessthan_13years_Apply">
+                  </a> <!-- Check_Age_Lessthan_13years_Apply -->
+                  <span class="method-name">Check_Age_Lessthan_13years_Apply</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlYear&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=ddlYear}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_Age_Lessthan_13years_Apply(Check_Fieldvalidation.java:277)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Age_Morethan_13years_Apply">
+                  </a> <!-- Check_Age_Morethan_13years_Apply -->
+                  <span class="method-name">Check_Age_Morethan_13years_Apply</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlYear&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=ddlYear}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_Age_Morethan_13years_Apply(Check_Fieldvalidation.java:316)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Displaying_ResisteredEmailId">
+                  </a> <!-- Check_Displaying_ResisteredEmailId -->
+                  <span class="method-name">Check_Displaying_ResisteredEmailId</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtCEmail&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=txtCEmail}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_Displaying_ResisteredEmailId(Check_Fieldvalidation.java:428)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Enable_Compartmental_Selectannual">
+                  </a> <!-- Check_Enable_Compartmental_Selectannual -->
+                  <span class="method-name">Check_Enable_Compartmental_Selectannual</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtSocSci&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=txtSocSci}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_Enable_Compartmental_Selectannual(Check_Fieldvalidation.java:452)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Enable_Compartmental_Selectsupplementary">
+                  </a> <!-- Check_Enable_Compartmental_Selectsupplementary -->
+                  <span class="method-name">Check_Enable_Compartmental_Selectsupplementary</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlYOP&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=ddlYOP}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_Enable_Compartmental_Selectsupplementary(Check_Fieldvalidation.java:488)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_ResisteredMobileNo_Readonlymode">
+                  </a> <!-- Check_ResisteredMobileNo_Readonlymode -->
+                  <span class="method-name">Check_ResisteredMobileNo_Readonlymode</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlNationality&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=ddlNationality}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_ResisteredMobileNo_Readonlymode(Check_Fieldvalidation.java:355)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_YOJ_Less_YOL">
+                  </a> <!-- Check_YOJ_Less_YOL -->
+                  <span class="method-name">Check_YOJ_Less_YOL</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#rbtCompartmentalN&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=rbtCompartmentalN}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_YOJ_Less_YOL(Check_Fieldvalidation.java:671)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_YOL_Disabled">
+                  </a> <!-- Check_YOL_Disabled -->
+                  <span class="method-name">Check_YOL_Disabled</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlYOL&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=ddlYOL}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.Check_YOL_Disabled(Check_Fieldvalidation.java:753)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyYOL_Same_10thYOP">
+                  </a> <!-- VerifyYOL_Same_10thYOP -->
+                  <span class="method-name">VerifyYOL_Same_10thYOP</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#btnSave&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14c21ee4b3afdd3025094ef90a4e53dc
+*** Element info: {Using=id, value=btnSave}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.minimizedScenariosExtentReport.Check_Fieldvalidation.VerifyYOL_Same_10thYOP(Check_Fieldvalidation.java:780)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Withoutreservation">
+                  </a> <!-- Withoutreservation -->
+                  <span class="method-name">Withoutreservation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUL251&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATYAR~1.M\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21104aa9030b7a392fa6a68a02b83466
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.testscenariosSmokeTest.Testc.getScreenshot(Testc.java:105)
+	at com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation.tearDown(Alloutside_StateANDWithoutreservation.java:232)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.OSACandidate_Apply</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OSACandidate_OdishaBoard_Apply">
+                  </a> <!-- OSACandidate_OdishaBoard_Apply -->
+                  <span class="method-name">OSACandidate_OdishaBoard_Apply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OSACandidate_OtherBoard_Apply">
+                  </a> <!-- OSACandidate_OtherBoard_Apply -->
+                  <span class="method-name">OSACandidate_OtherBoard_Apply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.VerifyFeespayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExServiceman_Apply">
+                  </a> <!-- ExServiceman_Apply -->
+                  <span class="method-name">ExServiceman_Apply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SDP_Apply">
+                  </a> <!-- SDP_Apply -->
+                  <span class="method-name">SDP_Apply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGeneral_Feespayment">
+                  </a> <!-- VerifyGeneral_Feespayment -->
+                  <span class="method-name">VerifyGeneral_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyOBC_Feespayment">
+                  </a> <!-- VerifyOBC_Feespayment -->
+                  <span class="method-name">VerifyOBC_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyORPHAN_Feespayment">
+                  </a> <!-- VerifyORPHAN_Feespayment -->
+                  <span class="method-name">VerifyORPHAN_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPWD_Feespayment">
+                  </a> <!-- VerifyPWD_Feespayment -->
+                  <span class="method-name">VerifyPWD_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySC_Feespayment">
+                  </a> <!-- VerifySC_Feespayment -->
+                  <span class="method-name">VerifySC_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyST_Feespayment">
+                  </a> <!-- VerifyST_Feespayment -->
+                  <span class="method-name">VerifyST_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTransgender_Feespayment">
+                  </a> <!-- VerifyTransgender_Feespayment -->
+                  <span class="method-name">VerifyTransgender_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_SEBC_Feespayment">
+                  </a> <!-- Verify_SEBC_Feespayment -->
+                  <span class="method-name">Verify_SEBC_Feespayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Check_MarkComparision</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Compare_PassMarkCompartmental_FailMarkPrevious">
+                  </a> <!-- Compare_PassMarkCompartmental_FailMarkPrevious -->
+                  <span class="method-name">Compare_PassMarkCompartmental_FailMarkPrevious</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Compare_TotalMarkSecured_MaxMark">
+                  </a> <!-- Compare_TotalMarkSecured_MaxMark -->
+                  <span class="method-name">Compare_TotalMarkSecured_MaxMark</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Compare_TotalMarkSecured_Sumofindividualmarks">
+                  </a> <!-- Compare_TotalMarkSecured_Sumofindividualmarks -->
+                  <span class="method-name">Compare_TotalMarkSecured_Sumofindividualmarks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Minimum_PassPercentages_IndividualSubject">
+                  </a> <!-- Minimum_PassPercentages_IndividualSubject -->
+                  <span class="method-name">Minimum_PassPercentages_IndividualSubject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Verify_Duplicate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_DuplicateAadharnumber_Differentuser">
+                  </a> <!-- Accept_DuplicateAadharnumber_Differentuser -->
+                  <span class="method-name">Accept_DuplicateAadharnumber_Differentuser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_DuplicateAddress_Differentuser">
+                  </a> <!-- Accept_DuplicateAddress_Differentuser -->
+                  <span class="method-name">Accept_DuplicateAddress_Differentuser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_Duplicate_Guardianmobilenumber">
+                  </a> <!-- Accept_Duplicate_Guardianmobilenumber -->
+                  <span class="method-name">Accept_Duplicate_Guardianmobilenumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_Duplicate_Telephonumber">
+                  </a> <!-- Accept_Duplicate_Telephonumber -->
+                  <span class="method-name">Accept_Duplicate_Telephonumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_samemobileno_telephonenumber">
+                  </a> <!-- Accept_samemobileno_telephonenumber -->
+                  <span class="method-name">Accept_samemobileno_telephonenumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDuplicacy_College_Stream">
+                  </a> <!-- CheckDuplicacy_College_Stream -->
+                  <span class="method-name">CheckDuplicacy_College_Stream</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Duplicate_Compartmental_Pass_Subject">
+                  </a> <!-- Duplicate_Compartmental_Pass_Subject -->
+                  <span class="method-name">Duplicate_Compartmental_Pass_Subject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Duplicate_Firstandforthelectivesubject_notapply">
+                  </a> <!-- Duplicate_Firstandforthelectivesubject_notapply -->
+                  <span class="method-name">Duplicate_Firstandforthelectivesubject_notapply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Duplicate_Firstandsecondelectivesubject_notapply">
+                  </a> <!-- Duplicate_Firstandsecondelectivesubject_notapply -->
+                  <span class="method-name">Duplicate_Firstandsecondelectivesubject_notapply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Duplicate_Firstandthirdelectivesubject_notapply">
+                  </a> <!-- Duplicate_Firstandthirdelectivesubject_notapply -->
+                  <span class="method-name">Duplicate_Firstandthirdelectivesubject_notapply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Duplicate_Fourthelectivesubject">
+                  </a> <!-- Verify_Duplicate_Fourthelectivesubject -->
+                  <span class="method-name">Verify_Duplicate_Fourthelectivesubject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sameNumGuardianMobile">
+                  </a> <!-- sameNumGuardianMobile -->
+                  <span class="method-name">sameNumGuardianMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Mark_Grade</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mark_Grade_BPEKerela">
+                  </a> <!-- Mark_Grade_BPEKerela -->
+                  <span class="method-name">Mark_Grade_BPEKerela</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mark_Grade_BSEAndhrapradesh">
+                  </a> <!-- Mark_Grade_BSEAndhrapradesh -->
+                  <span class="method-name">Mark_Grade_BSEAndhrapradesh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mark_Grade_BSEboard">
+                  </a> <!-- Mark_Grade_BSEboard -->
+                  <span class="method-name">Mark_Grade_BSEboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mark_Grade_CBSEBoard">
+                  </a> <!-- Mark_Grade_CBSEBoard -->
+                  <span class="method-name">Mark_Grade_CBSEBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Check_Fieldvalidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Disabled_Supplementary_Currentyear">
+                  </a> <!-- Check_Disabled_Supplementary_Currentyear -->
+                  <span class="method-name">Check_Disabled_Supplementary_Currentyear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.Uniqueelectivesubject</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_Uniqueelectivesubject">
+                  </a> <!-- Accept_Uniqueelectivesubject -->
+                  <span class="method-name">Accept_Uniqueelectivesubject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accept_Uniqueforthelectivesubject">
+                  </a> <!-- Accept_Uniqueforthelectivesubject -->
+                  <span class="method-name">Accept_Uniqueforthelectivesubject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Accepting_Duplicate_10thdata">
+                  </a> <!-- Verify_Accepting_Duplicate_10thdata -->
+                  <span class="method-name">Verify_Accepting_Duplicate_10thdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.ExamType</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChildrenOfMatrys_Apply">
+                  </a> <!-- ChildrenOfMatrys_Apply -->
+                  <span class="method-name">ChildrenOfMatrys_Apply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExamType_Annual">
+                  </a> <!-- ExamType_Annual -->
+                  <span class="method-name">ExamType_Annual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Examtype_Supplementary">
+                  </a> <!-- Examtype_Supplementary -->
+                  <span class="method-name">Examtype_Supplementary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.minimizedScenariosExtentReport.AutoValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify10throllno_autovalidation_nonodishaboard">
+                  </a> <!-- Verify10throllno_autovalidation_nonodishaboard -->
+                  <span class="method-name">Verify10throllno_autovalidation_nonodishaboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTenthrollno_autovalidation_before2013">
+                  </a> <!-- VerifyTenthrollno_autovalidation_before2013 -->
+                  <span class="method-name">VerifyTenthrollno_autovalidation_before2013</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTenththrollno_autovalidation">
+                  </a> <!-- VerifyTenththrollno_autovalidation -->
+                  <span class="method-name">VerifyTenththrollno_autovalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\satyaranjan.m\eclipse-workspace\JuniorForm\testngExtentReport.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.Verify_Duplicate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Uniqueelectivesubject&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.Uniqueelectivesubject&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Uniqueelectivesubject --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Alloutside_StateANDWithoutreservation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alloutside_StateANDWithoutreservation --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;CAFTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.CAFTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CAFTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Check_Fieldvalidation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.Check_Fieldvalidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Check_Fieldvalidation --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Check_MarkComparision&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.Check_MarkComparision&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Check_MarkComparision --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ExamType&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.ExamType&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ExamType --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Mark_Grade&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.Mark_Grade&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mark_Grade --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;OSACandidate_Apply&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.OSACandidate_Apply&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OSACandidate_Apply --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;VerifyFeespayment&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.VerifyFeespayment&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyFeespayment --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;AutoValidation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.minimizedScenariosExtentReport.AutoValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutoValidation --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Uniqueelectivesubject (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Alloutside_StateANDWithoutreservation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CAFTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Check_Fieldvalidation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Check_MarkComparision (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ExamType (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Mark_Grade (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OSACandidate_Apply (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyFeespayment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AutoValidation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(62);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Alloutside_State')
+data.setCell(0, 2, 'com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation')
+data.setCell(0, 3, 303438);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Check_Age_Equalto_13years_Apply')
+data.setCell(1, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(1, 3, 135895);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MALECandidate_CAF_Apply')
+data.setCell(2, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(2, 3, 51014);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Accept_Uniqueelectivesubject')
+data.setCell(3, 2, 'com.minimizedScenariosExtentReport.Uniqueelectivesubject')
+data.setCell(3, 3, 50674);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Check_Disabled_Supplementary_Currentyear')
+data.setCell(4, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(4, 3, 38088);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyYOL_Same_10thYOP')
+data.setCell(5, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(5, 3, 32064);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Check_Age_Lessthan_13years_Apply')
+data.setCell(6, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(6, 3, 32059);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Check_Age_Morethan_13years_Apply')
+data.setCell(7, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(7, 3, 32048);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Check_ResisteredMobileNo_Readonlymode')
+data.setCell(8, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(8, 3, 32030);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'OSACandidate_OtherBoard_Apply')
+data.setCell(9, 2, 'com.minimizedScenariosExtentReport.OSACandidate_Apply')
+data.setCell(9, 3, 31441);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ChildrenOfMatrys_Apply')
+data.setCell(10, 2, 'com.minimizedScenariosExtentReport.ExamType')
+data.setCell(10, 3, 31330);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'OSACandidate_OdishaBoard_Apply')
+data.setCell(11, 2, 'com.minimizedScenariosExtentReport.OSACandidate_Apply')
+data.setCell(11, 3, 30869);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Verify10throllno_autovalidation_nonodishaboard')
+data.setCell(12, 2, 'com.minimizedScenariosExtentReport.AutoValidation')
+data.setCell(12, 3, 30863);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Check_Displaying_ResisteredEmailId')
+data.setCell(13, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(13, 3, 30069);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Check_YOJ_Less_YOL')
+data.setCell(14, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(14, 3, 30064);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Check_Enable_Compartmental_Selectannual')
+data.setCell(15, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(15, 3, 30061);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Check_YOL_Disabled')
+data.setCell(16, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(16, 3, 30043);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Check_Enable_Compartmental_Selectsupplementary')
+data.setCell(17, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(17, 3, 30028);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'CheckStreamwise_Previousyear_Cuttoffmark')
+data.setCell(18, 2, 'com.minimizedScenariosExtentReport.Check_Fieldvalidation')
+data.setCell(18, 3, 30016);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Compare_TotalMarkSecured_MaxMark')
+data.setCell(19, 2, 'com.minimizedScenariosExtentReport.Check_MarkComparision')
+data.setCell(19, 3, 27236);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Minimum_PassPercentages_IndividualSubject')
+data.setCell(20, 2, 'com.minimizedScenariosExtentReport.Check_MarkComparision')
+data.setCell(20, 3, 22034);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Duplicate_Firstandforthelectivesubject_notapply')
+data.setCell(21, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(21, 3, 16884);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyORPHAN_Feespayment')
+data.setCell(22, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(22, 3, 16506);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Duplicate_Compartmental_Pass_Subject')
+data.setCell(23, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(23, 3, 15504);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyTransgender_Feespayment')
+data.setCell(24, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(24, 3, 14052);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Verify_Duplicate_Fourthelectivesubject')
+data.setCell(25, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(25, 3, 13848);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Accept_DuplicateAddress_Differentuser')
+data.setCell(26, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(26, 3, 13675);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'VerifyST_Feespayment')
+data.setCell(27, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(27, 3, 12405);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Duplicate_Firstandthirdelectivesubject_notapply')
+data.setCell(28, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(28, 3, 11649);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Duplicate_Firstandsecondelectivesubject_notapply')
+data.setCell(29, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(29, 3, 6982);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'VerifyPWD_Feespayment')
+data.setCell(30, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(30, 3, 6362);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Accept_Duplicate_Telephonumber')
+data.setCell(31, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(31, 3, 5348);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Accept_Duplicate_Guardianmobilenumber')
+data.setCell(32, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(32, 3, 3834);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'VerifyTenththrollno_autovalidation')
+data.setCell(33, 2, 'com.minimizedScenariosExtentReport.AutoValidation')
+data.setCell(33, 3, 3721);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'CheckDuplicacy_College_Stream')
+data.setCell(34, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(34, 3, 3514);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'sameNumGuardianMobile')
+data.setCell(35, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(35, 3, 3217);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Compare_PassMarkCompartmental_FailMarkPrevious')
+data.setCell(36, 2, 'com.minimizedScenariosExtentReport.Check_MarkComparision')
+data.setCell(36, 3, 2523);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Accept_DuplicateAadharnumber_Differentuser')
+data.setCell(37, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(37, 3, 2329);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'VerifySC_Feespayment')
+data.setCell(38, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(38, 3, 2262);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'VerifyGeneral_Feespayment')
+data.setCell(39, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(39, 3, 2247);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'VerifyOBC_Feespayment')
+data.setCell(40, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(40, 3, 2245);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Verify_SEBC_Feespayment')
+data.setCell(41, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(41, 3, 2231);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'Compare_TotalMarkSecured_Sumofindividualmarks')
+data.setCell(42, 2, 'com.minimizedScenariosExtentReport.Check_MarkComparision')
+data.setCell(42, 3, 1863);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Verify_Accepting_Duplicate_10thdata')
+data.setCell(43, 2, 'com.minimizedScenariosExtentReport.Uniqueelectivesubject')
+data.setCell(43, 3, 1588);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'VerifyTenthrollno_autovalidation_before2013')
+data.setCell(44, 2, 'com.minimizedScenariosExtentReport.AutoValidation')
+data.setCell(44, 3, 1166);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Mark_Grade_BPEKerela')
+data.setCell(45, 2, 'com.minimizedScenariosExtentReport.Mark_Grade')
+data.setCell(45, 3, 984);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'ExamType_Annual')
+data.setCell(46, 2, 'com.minimizedScenariosExtentReport.ExamType')
+data.setCell(46, 3, 840);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Mark_Grade_BSEAndhrapradesh')
+data.setCell(47, 2, 'com.minimizedScenariosExtentReport.Mark_Grade')
+data.setCell(47, 3, 832);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'Accept_samemobileno_telephonenumber')
+data.setCell(48, 2, 'com.minimizedScenariosExtentReport.Verify_Duplicate')
+data.setCell(48, 3, 584);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'Mark_Grade_BSEboard')
+data.setCell(49, 2, 'com.minimizedScenariosExtentReport.Mark_Grade')
+data.setCell(49, 3, 532);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'Examtype_Supplementary')
+data.setCell(50, 2, 'com.minimizedScenariosExtentReport.ExamType')
+data.setCell(50, 3, 511);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Mark_Grade_CBSEBoard')
+data.setCell(51, 2, 'com.minimizedScenariosExtentReport.Mark_Grade')
+data.setCell(51, 3, 500);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'ExServiceman_Apply')
+data.setCell(52, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(52, 3, 481);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'SDP_Apply')
+data.setCell(53, 2, 'com.minimizedScenariosExtentReport.VerifyFeespayment')
+data.setCell(53, 3, 426);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Accept_Uniqueforthelectivesubject')
+data.setCell(54, 2, 'com.minimizedScenariosExtentReport.Uniqueelectivesubject')
+data.setCell(54, 3, 343);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'femaleCandidate')
+data.setCell(55, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(55, 3, 34);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'CAF_Accept_Fivepreference')
+data.setCell(56, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(56, 3, 31);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'CAFApply_10thpasscompartmental')
+data.setCell(57, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(57, 3, 21);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'Minimum_10thpercentage_Apply_CAF')
+data.setCell(58, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(58, 3, 20);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'CAF_NotAccept_Lessthan5preference')
+data.setCell(59, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(59, 3, 19);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'Transgender_Candidate_CAF_Apply')
+data.setCell(60, 2, 'com.minimizedScenariosExtentReport.CAFTest')
+data.setCell(60, 3, 16);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'Withoutreservation')
+data.setCell(61, 2, 'com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation')
+data.setCell(61, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.Verify_Duplicate</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Accept_DuplicateAadharnumber_Differentuser</span>
+                <span class="method-start">56213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_DuplicateAadharnumber_Differentuser status=SUCCESS method=Verify_Duplicate.A...)</span>
+                <span class="method-start">58549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Accept_Duplicate_Guardianmobilenumber</span>
+                <span class="method-start">58579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_Duplicate_Guardianmobilenumber status=SUCCESS method=Verify_Duplicate.Accept...)</span>
+                <span class="method-start">62414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sameNumGuardianMobile</span>
+                <span class="method-start">62415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sameNumGuardianMobile status=SUCCESS method=Verify_Duplicate.sameNumGuardianMobile(...)</span>
+                <span class="method-start">65632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Accept_DuplicateAddress_Differentuser</span>
+                <span class="method-start">65632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_DuplicateAddress_Differentuser status=SUCCESS method=Verify_Duplicate.Accept...)</span>
+                <span class="method-start">79307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Accept_Duplicate_Telephonumber</span>
+                <span class="method-start">79308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_Duplicate_Telephonumber status=SUCCESS method=Verify_Duplicate.Accept_Duplic...)</span>
+                <span class="method-start">84657 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Accept_samemobileno_telephonenumber</span>
+                <span class="method-start">84658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_samemobileno_telephonenumber status=SUCCESS method=Verify_Duplicate.Accept_s...)</span>
+                <span class="method-start">85242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Duplicate_Compartmental_Pass_Subject</span>
+                <span class="method-start">85242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Duplicate_Compartmental_Pass_Subject status=SUCCESS method=Verify_Duplicate.Duplica...)</span>
+                <span class="method-start">100746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckDuplicacy_College_Stream</span>
+                <span class="method-start">100746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CheckDuplicacy_College_Stream status=SUCCESS method=Verify_Duplicate.CheckDuplicacy...)</span>
+                <span class="method-start">104260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Duplicate_Firstandforthelectivesubject_notapply</span>
+                <span class="method-start">104260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Duplicate_Firstandforthelectivesubject_notapply status=SUCCESS method=Verify_Duplic...)</span>
+                <span class="method-start">121144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Duplicate_Firstandsecondelectivesubject_notapply</span>
+                <span class="method-start">121144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Duplicate_Firstandsecondelectivesubject_notapply status=SUCCESS method=Verify_Dupli...)</span>
+                <span class="method-start">128126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Duplicate_Firstandthirdelectivesubject_notapply</span>
+                <span class="method-start">128126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Duplicate_Firstandthirdelectivesubject_notapply status=SUCCESS method=Verify_Duplic...)</span>
+                <span class="method-start">139775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify_Duplicate_Fourthelectivesubject</span>
+                <span class="method-start">139775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Verify_Duplicate_Fourthelectivesubject status=SUCCESS method=Verify_Duplicate.Verif...)</span>
+                <span class="method-start">153623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">153623 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.Uniqueelectivesubject</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">155970 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Accept_Uniqueelectivesubject</span>
+                <span class="method-start">180693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_Uniqueelectivesubject status=SUCCESS method=Uniqueelectivesubject.Accept_Uni...)</span>
+                <span class="method-start">231367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Accept_Uniqueforthelectivesubject</span>
+                <span class="method-start">231368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Accept_Uniqueforthelectivesubject status=SUCCESS method=Uniqueelectivesubject.Accep...)</span>
+                <span class="method-start">231711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify_Accepting_Duplicate_10thdata</span>
+                <span class="method-start">231712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Verify_Accepting_Duplicate_10thdata status=SUCCESS method=Uniqueelectivesubject.Ver...)</span>
+                <span class="method-start">233300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">233301 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">235147 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Alloutside_State</span>
+                <span class="method-start">256143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=Alloutside_State status=FAILURE method=Alloutside_StateANDWithoutreservation.Allout...)</span>
+                <span class="method-start">559600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Withoutreservation</span>
+                <span class="method-start">559984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">559984 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">559984 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.CAFTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">560405 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MALECandidate_CAF_Apply</span>
+                <span class="method-start">560405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=MALECandidate_CAF_Apply status=FAILURE method=CAFTest.MALECandidate_CAF_Apply()[pri...)</span>
+                <span class="method-start">611419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">femaleCandidate</span>
+                <span class="method-start">612463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=femaleCandidate status=FAILURE method=CAFTest.femaleCandidate()[pri:1, instance:com...)</span>
+                <span class="method-start">612498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Transgender_Candidate_CAF_Apply</span>
+                <span class="method-start">612859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Transgender_Candidate_CAF_Apply status=FAILURE method=CAFTest.Transgender_Candidate...)</span>
+                <span class="method-start">612875 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Minimum_10thpercentage_Apply_CAF</span>
+                <span class="method-start">613256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Minimum_10thpercentage_Apply_CAF status=FAILURE method=CAFTest.Minimum_10thpercenta...)</span>
+                <span class="method-start">613277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CAFApply_10thpasscompartmental</span>
+                <span class="method-start">613646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CAFApply_10thpasscompartmental status=FAILURE method=CAFTest.CAFApply_10thpasscompa...)</span>
+                <span class="method-start">613667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CAF_NotAccept_Lessthan5preference</span>
+                <span class="method-start">614005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CAF_NotAccept_Lessthan5preference status=FAILURE method=CAFTest.CAF_NotAccept_Lesst...)</span>
+                <span class="method-start">614024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CAF_Accept_Fivepreference</span>
+                <span class="method-start">614361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CAF_Accept_Fivepreference status=FAILURE method=CAFTest.CAF_Accept_Fivepreference()...)</span>
+                <span class="method-start">614392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">614744 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.Check_Fieldvalidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">616370 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Check_Disabled_Supplementary_Currentyear</span>
+                <span class="method-start">616417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Age_Equalto_13years_Apply</span>
+                <span class="method-start">654505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Age_Lessthan_13years_Apply</span>
+                <span class="method-start">790400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Age_Morethan_13years_Apply</span>
+                <span class="method-start">822459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_ResisteredMobileNo_Readonlymode</span>
+                <span class="method-start">854507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Displaying_ResisteredEmailId</span>
+                <span class="method-start">886537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Enable_Compartmental_Selectannual</span>
+                <span class="method-start">916606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Enable_Compartmental_Selectsupplementary</span>
+                <span class="method-start">946667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_YOJ_Less_YOL</span>
+                <span class="method-start">976695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_YOL_Disabled</span>
+                <span class="method-start">1006759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyYOL_Same_10thYOP</span>
+                <span class="method-start">1036802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckStreamwise_Previousyear_Cuttoffmark</span>
+                <span class="method-start">1068866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1098882 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.Check_MarkComparision</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1100555 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Compare_TotalMarkSecured_MaxMark</span>
+                <span class="method-start">1129889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Compare_TotalMarkSecured_MaxMark status=SUCCESS method=Check_MarkComparision.Compar...)</span>
+                <span class="method-start">1157126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Compare_TotalMarkSecured_Sumofindividualmarks</span>
+                <span class="method-start">1157127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Compare_TotalMarkSecured_Sumofindividualmarks status=SUCCESS method=Check_MarkCompa...)</span>
+                <span class="method-start">1158990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Compare_PassMarkCompartmental_FailMarkPrevious</span>
+                <span class="method-start">1158992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Compare_PassMarkCompartmental_FailMarkPrevious status=SUCCESS method=Check_MarkComp...)</span>
+                <span class="method-start">1161516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Minimum_PassPercentages_IndividualSubject</span>
+                <span class="method-start">1161517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Minimum_PassPercentages_IndividualSubject status=SUCCESS method=Check_MarkComparisi...)</span>
+                <span class="method-start">1183551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1183551 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.ExamType</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1184908 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ExamType_Annual</span>
+                <span class="method-start">1210713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ExamType_Annual status=SUCCESS method=ExamType.ExamType_Annual()[pri:0, instance:co...)</span>
+                <span class="method-start">1211554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Examtype_Supplementary</span>
+                <span class="method-start">1211555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Examtype_Supplementary status=SUCCESS method=ExamType.Examtype_Supplementary()[pri:...)</span>
+                <span class="method-start">1212066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChildrenOfMatrys_Apply</span>
+                <span class="method-start">1212067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ChildrenOfMatrys_Apply status=SUCCESS method=ExamType.ChildrenOfMatrys_Apply()[pri:...)</span>
+                <span class="method-start">1243397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1243398 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.Mark_Grade</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1244581 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Mark_Grade_BPEKerela</span>
+                <span class="method-start">1266057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Mark_Grade_BPEKerela status=SUCCESS method=Mark_Grade.Mark_Grade_BPEKerela()[pri:0,...)</span>
+                <span class="method-start">1267041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Mark_Grade_BSEAndhrapradesh</span>
+                <span class="method-start">1267041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Mark_Grade_BSEAndhrapradesh status=SUCCESS method=Mark_Grade.Mark_Grade_BSEAndhrapr...)</span>
+                <span class="method-start">1267873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Mark_Grade_BSEboard</span>
+                <span class="method-start">1267873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Mark_Grade_BSEboard status=SUCCESS method=Mark_Grade.Mark_Grade_BSEboard()[pri:2, i...)</span>
+                <span class="method-start">1268405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Mark_Grade_CBSEBoard</span>
+                <span class="method-start">1268405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Mark_Grade_CBSEBoard status=SUCCESS method=Mark_Grade.Mark_Grade_CBSEBoard()[pri:3,...)</span>
+                <span class="method-start">1268905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1268905 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.OSACandidate_Apply</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1270218 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">OSACandidate_OdishaBoard_Apply</span>
+                <span class="method-start">1297895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OSACandidate_OdishaBoard_Apply status=SUCCESS method=OSACandidate_Apply.OSACandidat...)</span>
+                <span class="method-start">1328765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OSACandidate_OtherBoard_Apply</span>
+                <span class="method-start">1328766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OSACandidate_OtherBoard_Apply status=SUCCESS method=OSACandidate_Apply.OSACandidate...)</span>
+                <span class="method-start">1360207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1360208 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.VerifyFeespayment</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1361509 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTransgender_Feespayment</span>
+                <span class="method-start">1388862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTransgender_Feespayment status=SUCCESS method=VerifyFeespayment.VerifyTransge...)</span>
+                <span class="method-start">1402914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyORPHAN_Feespayment</span>
+                <span class="method-start">1402914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyORPHAN_Feespayment status=SUCCESS method=VerifyFeespayment.VerifyORPHAN_Feesp...)</span>
+                <span class="method-start">1419420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyST_Feespayment</span>
+                <span class="method-start">1419421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyST_Feespayment status=SUCCESS method=VerifyFeespayment.VerifyST_Feespayment()...)</span>
+                <span class="method-start">1431826 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifySC_Feespayment</span>
+                <span class="method-start">1431826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySC_Feespayment status=SUCCESS method=VerifyFeespayment.VerifySC_Feespayment()...)</span>
+                <span class="method-start">1434088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyOBC_Feespayment</span>
+                <span class="method-start">1434088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyOBC_Feespayment status=SUCCESS method=VerifyFeespayment.VerifyOBC_Feespayment...)</span>
+                <span class="method-start">1436333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify_SEBC_Feespayment</span>
+                <span class="method-start">1436333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Verify_SEBC_Feespayment status=SUCCESS method=VerifyFeespayment.Verify_SEBC_Feespay...)</span>
+                <span class="method-start">1438564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyGeneral_Feespayment</span>
+                <span class="method-start">1438564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyGeneral_Feespayment status=SUCCESS method=VerifyFeespayment.VerifyGeneral_Fee...)</span>
+                <span class="method-start">1440811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyPWD_Feespayment</span>
+                <span class="method-start">1440811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyPWD_Feespayment status=SUCCESS method=VerifyFeespayment.VerifyPWD_Feespayment...)</span>
+                <span class="method-start">1447173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExServiceman_Apply</span>
+                <span class="method-start">1447173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ExServiceman_Apply status=SUCCESS method=VerifyFeespayment.ExServiceman_Apply()[pri...)</span>
+                <span class="method-start">1447654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SDP_Apply</span>
+                <span class="method-start">1447655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SDP_Apply status=SUCCESS method=VerifyFeespayment.SDP_Apply()[pri:9, instance:com.m...)</span>
+                <span class="method-start">1448081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1448082 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.minimizedScenariosExtentReport.AutoValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1449529 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Verify10throllno_autovalidation_nonodishaboard</span>
+                <span class="method-start">1449576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Verify10throllno_autovalidation_nonodishaboard status=SUCCESS method=AutoValidation...)</span>
+                <span class="method-start">1480439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyTenthrollno_autovalidation_before2013</span>
+                <span class="method-start">1480439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTenthrollno_autovalidation_before2013 status=SUCCESS method=AutoValidation.Ve...)</span>
+                <span class="method-start">1481605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyTenththrollno_autovalidation</span>
+                <span class="method-start">1481605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTenththrollno_autovalidation status=SUCCESS method=AutoValidation.VerifyTenth...)</span>
+                <span class="method-start">1485326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finish</span>
+                <span class="method-start">1485326 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Alloutside_StateANDWithoutreservation(failed)">
+    <classes>
+      <class name="com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation">
+        <methods>
+          <include name="finish"/>
+          <include name="tearDown"/>
+          <include name="Alloutside_State"/>
+          <include name="Withoutreservation"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.minimizedScenariosExtentReport.Alloutside_StateANDWithoutreservation -->
+    </classes>
+  </test> <!-- Alloutside_StateANDWithoutreservation(failed) -->
+  <test thread-count="5" verbose="0" name="CAFTest(failed)">
+    <classes>
+      <class name="com.minimizedScenariosExtentReport.CAFTest">
+        <methods>
+          <include name="CAFApply_10thpasscompartmental"/>
+          <include name="CAF_Accept_Fivepreference"/>
+          <include name="finish"/>
+          <include name="MALECandidate_CAF_Apply"/>
+          <include name="Minimum_10thpercentage_Apply_CAF"/>
+          <include name="Transgender_Candidate_CAF_Apply"/>
+          <include name="femaleCandidate"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="CAF_NotAccept_Lessthan5preference"/>
+        </methods>
+      </class> <!-- com.minimizedScenariosExtentReport.CAFTest -->
+    </classes>
+  </test> <!-- CAFTest(failed) -->
+  <test thread-count="5" verbose="0" name="Check_Fieldvalidation(failed)">
+    <classes>
+      <class name="com.minimizedScenariosExtentReport.Check_Fieldvalidation">
+        <methods>
+          <include name="Check_Age_Equalto_13years_Apply"/>
+          <include name="Check_Displaying_ResisteredEmailId"/>
+          <include name="Check_ResisteredMobileNo_Readonlymode"/>
+          <include name="Check_Age_Lessthan_13years_Apply"/>
+          <include name="Check_YOL_Disabled"/>
+          <include name="CheckStreamwise_Previousyear_Cuttoffmark"/>
+          <include name="Check_Enable_Compartmental_Selectsupplementary"/>
+          <include name="Check_Age_Morethan_13years_Apply"/>
+          <include name="Setup"/>
+          <include name="Check_Enable_Compartmental_Selectannual"/>
+          <include name="VerifyYOL_Same_10thYOP"/>
+          <include name="finish"/>
+          <include name="Check_YOJ_Less_YOL"/>
+        </methods>
+      </class> <!-- com.minimizedScenariosExtentReport.Check_Fieldvalidation -->
+    </classes>
+  </test> <!-- Check_Fieldvalidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
